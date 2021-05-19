@@ -39,7 +39,7 @@ jobs:
               sed -i 's/\|\| exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh
               sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh
        
-       - name: Setting up ErfanGSI requirements  Xiaoxin script
+       - name: Setting up ErfanGSI requirements
          run: |
               cd ErfanGSIs
               mkdir ./output
